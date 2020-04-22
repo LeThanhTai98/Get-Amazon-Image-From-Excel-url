@@ -22,7 +22,7 @@ rows.forEach(row => {
       const options = {
         url: data[itemprop="image"],
         //đường dẫn đến vị trí lưu file                     //tên file//đuôi file
-        dest: 'C:/Users/Thanh Tai/Desktop/webPublic/Get-Amazon-Image-From-Excel-url/'+res+".jpg"                
+        dest: 'C:/Users/Thanh Tai/Desktop/webPublic/hinh3/'+res+".jpg"                
       }
        
       download.image(options)
